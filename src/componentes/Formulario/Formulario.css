@@ -1,0 +1,19 @@
+.formulario {
+    display: flex;
+    justify-content: center;
+    margin: 80px 0;
+}
+
+h2 {
+    font-family: 'Prata', serif;
+}
+
+.formulario form {
+    font-family: 'Montserrat' sans-serif;
+    font-weight: 500;
+    max-width: 80%;
+    background-color: #f2f2f2;
+    border-radius: 20px;
+    padding: 36px 64px;
+    box-shadow: 8px 8px 16px rgba(0, 0, 0, 0.08);
+}
