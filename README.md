@@ -18,12 +18,12 @@ Depois que você mandar essas informações, o site vai criar um **card irado** 
   
 ---
 
-🚀 Como rodar o projeto
-Basta apenas acessar o seguinte site:
+## 🚀 Como rodar o projeto
+- Basta apenas acessar o seguinte site:
 
 https://card-creator-valorant.vercel.app/
 
-E começar a organizar o squad perfeito para subir de elo!
+- E começar a organizar o squad perfeito para subir de elo!
 
 ---
 
