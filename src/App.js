@@ -61,7 +61,6 @@ const App = (props) => {
   const [players, setPlayers] = useState([])
 
   const aoNovoPlayerAdicionado = (player) => {
-    debugger
     setPlayers([...players, player])
   }
 
