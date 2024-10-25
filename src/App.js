@@ -66,18 +66,23 @@ const App = (props) => {
 
   return (
     <div className="App">
-      <Banner />
-      <Formulario ranks={ranks.map(rank => rank.elos)} aoPlayerCadastrado={player => aoNovoPlayerAdicionado(player)}/>
-        <Rodape />
-
-      {ranks.map(rank => <Ranks 
-      key={rank.elos} 
-      elos={rank.elos} 
-      corPrimaria={rank.corPrimaria} 
-      corSecundaria={rank.corSecundaria}
-      players={players.filter(player => player.rank === rank.elos)}
-      />)}
-
+        <div className='conteudo'>
+        <Banner />
+        <Formulario 
+        ranks={ranks.map(rank => rank.elos)} 
+        aoPlayerCadastrado={player => aoNovoPlayerAdicionado(player)}
+        />
+        {ranks.map(rank => (
+        <Ranks 
+        key={rank.elos} 
+        elos={rank.elos} 
+        corPrimaria={rank.corPrimaria} 
+        corSecundaria={rank.corSecundaria}
+        players={players.filter(player => player.rank === rank.elos)}
+        />
+        ))}
+      </div>
+      <Rodape />
     </div>
   );
 }
